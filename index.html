@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Network Information</h1>
+        <div class="info-card">
+            <div class="info-row">
+                <span>Public IP:</span>
+                <span id="ip-address">Loading...</span>
+            </div>
+            <div class="info-row">
+                <span>Location:</span>
+                <span id="location">Detecting...</span>
+            </div>
+            <div class="info-row">
+                <span>City:</span>
+                <span id="city">-</span>
+            </div>
+            <div class="info-row">
+                <span>Country:</span>
+                <span id="country">-</span>
+            </div>
+            <div class="info-row">
+                <span>ISP:</span>
+                <span id="isp">-</span>
+            </div>
+        </div>
+        <button id="refresh-btn">Refresh Data</button>
+        <div id="error-message" class="error"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

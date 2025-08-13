@@ -1,0 +1,7 @@
+{
+    "apiEndpoints": [
+        "https://api.ipify.org?format=json",
+        "https://ipapi.co/json/",
+        "https://ipwho.is/"
+    ]
+}
